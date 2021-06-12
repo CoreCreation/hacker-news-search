@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+  width: 85%; 
+  margin: 5% auto auto auto;
+}
+
+.Search-Bar {
+  margin: 25px 0px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto 25px auto;
+}
+
+thead {
+  color:white;
+  background-color: #3196fd;
+}
+/* The url column of the table can break the formatting, this will wrap the text so it doesn't break */
+.URL-Col {
+  word-break: break-all;
+}
+
+th, td {
+  margin: 0px;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #2e2e2e;
+}
+
+.LoadMore-Button {
+  text-align: center;
+}
