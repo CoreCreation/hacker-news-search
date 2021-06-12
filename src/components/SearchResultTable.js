@@ -23,7 +23,7 @@ export default function SearchResultTable() {
                 </thead>
                 <tbody>
                     {
-                        posts.map((post, index) => {
+                        posts.map((post) => {
                             return (<Post key={post.id} post={post} />);
                         })
                     }
